@@ -8,11 +8,11 @@ public class MoodAnalyser {
 	public MoodAnalyser(String message) {
 		this.message=message;
 	}
-		String analyseMood(String message) {
-		if(message.contains("I am in Sad Mood"))
-			return "SAD";
-		else
+		public String analyseMood(String message) {
+		if(message.contains("I am in Any Mood"))
 			return "HAPPY";
+		else
+			return "SAD";
 			}
 	
 }

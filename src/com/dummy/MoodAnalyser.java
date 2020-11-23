@@ -1,11 +1,18 @@
 package com.dummy;
 
 public class MoodAnalyser {
-	public String analyseMood(String message) {
-		if(message.contains("I am in any Mood"))
-			return "HAPPY";
-		else
+	String message;
+	public MoodAnalyser() {
+		// TODO Auto-generated constructor stub
+	}
+	public MoodAnalyser(String message) {
+		this.message=message;
+	}
+		String analyseMood(String message) {
+		if(message.contains("I am in Sad Mood"))
 			return "SAD";
+		else
+			return "HAPPY";
 			}
 	
 }

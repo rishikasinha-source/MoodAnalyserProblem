@@ -8,16 +8,17 @@ import org.junit.Test;
 public class MoodAnalyserTest {
 	MoodAnalyser analyser=new MoodAnalyser();
 
-	//@Test
+//	@Test
 //	public void  givenSad_WhenAnalyseSad_thenShouldSadMood() {
 //		Assert.assertEquals("SAD",analyser.analyseMood("I am in Sad Mood"));
-	// }
+//	 }
 		
-	@Test
-	public void givenAny_WhenAnalyseAny_thenShouldReturnHappyMood() {
-		Assert.assertEquals("HAPPY",analyser.analyseMood("I am in any Mood"));
+//	@Test
+	//public void givenAny_WhenAnalyseAny_thenShouldReturnHappyMood() {
+		//Assert.assertEquals("HAPPY",analyser.analyseMood("I am in any Mood"));
+		
 		
 		
 	}
 
-}
+

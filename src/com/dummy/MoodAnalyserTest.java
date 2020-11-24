@@ -32,4 +32,14 @@ public class MoodAnalyserTest {
 		}
 	}
 	}
+	@Test 
+	public void given_InEmptyMood_shouldThrowException() {
+		MoodAnalyser moodAnalyser=new MoodAnalyser();
+		{
+			moodAnalyser.analyseMood();
+		}
+	}
 }
+	
+		
+	

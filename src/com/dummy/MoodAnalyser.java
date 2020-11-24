@@ -12,10 +12,15 @@ public class MoodAnalyser {
 			try {
 		if(message.contains("I am in Any Mood"))
 			return "HAPPY";
-		else
+			else if (message.length() == 0)
+				throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.ENTERED_EMPTY, "Empty mood");
 			return "SAD";
 			}  catch (NullPointerException e) {
 				throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.ENTERED_NULL,"Please enter correct mood");
 			}
+		}
+		public void analyseMood() {
+			// TODO Auto-generated method stub
+			
 		}
 }
